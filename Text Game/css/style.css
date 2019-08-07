@@ -1,0 +1,70 @@
+html{
+	font-family: avenir;
+	background-color:black;
+
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#wrapper{
+	height:50%;
+	width:100%;
+}
+
+h1{
+	text-align:center;
+	margin-top:20%;
+	color: red;
+	display:block;
+}
+
+h2{
+	color: gray;
+	font-size:18px;
+	text-align:center;
+	-webkit-animation: fadein 4s;
+
+}
+
+.first{
+	margin-top:20%;
+}
+
+
+a {
+	text-align:center;
+	display:block;
+	text-decoration: none;
+	color:white;
+	transition: 0.3s;
+	-webkit-animation: fadein 7s;
+
+}
+
+a:hover{
+	color:red;
+}
+
+#play:hover{
+	color:gray;
+}
+
+.option1{
+	float:left;
+	margin-left: 15%;
+}
+
+.option2{
+	float:right;
+	margin-right: 15%;
+
+}
+
+#red{
+	color:red;
+}
+
+
